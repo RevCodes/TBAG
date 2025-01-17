@@ -6,4 +6,8 @@ dininghall = Room("dining hall")
 
 kitchen.set_description("A cold dark room with rats inside")
 
-print(kitchen.name)
+print(kitchen.get_description())
+
+
+
+kitchen.describe()
